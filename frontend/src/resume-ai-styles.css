@@ -1,0 +1,23 @@
+/* AI semantic resume matcher */
+.resume-ai-result { display: flex; flex-direction: column; gap: 16px; }
+.resume-score-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-bottom: 14px; border-bottom: 1px solid var(--border-color, rgba(120,130,150,.22)); }
+.resume-eyebrow { display: block; font-size: 10px; font-weight: 800; letter-spacing: .12em; opacity: .7; margin-bottom: 5px; }
+.resume-score { display: block; font-size: 25px; line-height: 1.2; }
+.resume-score-caption, .resume-method-note { font-size: 12px; opacity: .72; }
+.resume-summary { line-height: 1.6; margin: 0; }
+.resume-method-note { margin: 0; }
+.resume-skill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.resume-result-section { min-width: 0; border: 1px solid var(--border-color, rgba(120,130,150,.2)); border-radius: 12px; padding: 14px; }
+.resume-result-section h4 { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 0 0 10px; font-size: 13px; }
+.resume-result-section h4 span { border-radius: 99px; padding: 2px 8px; background: rgba(120,130,150,.13); font-size: 11px; }
+.resume-result-section p { font-size: 12px; line-height: 1.55; margin: 6px 0; overflow-wrap: anywhere; }
+.resume-result-section ul { margin: 0; padding-left: 18px; }
+.resume-result-section li { font-size: 12px; line-height: 1.55; margin: 5px 0; overflow-wrap: anywhere; }
+.resume-requirements { display: flex; flex-direction: column; gap: 10px; }
+.resume-requirement { padding: 11px; border-radius: 9px; background: rgba(120,130,150,.07); }
+.resume-requirement-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.resume-requirement-top strong { font-size: 13px; }
+.resume-status { flex-shrink: 0; text-transform: capitalize; border-radius: 99px; padding: 3px 8px; font-size: 10px; font-weight: 800; }
+.status-matched { background: rgba(34,197,94,.14); color: #15803d; }
+.status-partial { background: rgba(234,179,8,.16); color: #a16207; }
+.status-missing { background: rgba(239,68,68,.13); color: #b91c1c; }
